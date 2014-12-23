@@ -37,12 +37,6 @@ blockquote {
         padding: 0;
         }
     
-    .layout-quaver:after {
-        content: "";
-        display: table;
-        clear: both;
-    	}
-    
     [class*="block-"][class*="layout-quaver"] {
         width: calc(9.33333333333% - 36px);
         }
@@ -65,12 +59,6 @@ blockquote {
         clear: none;
         padding: 0;
         }
-    
-    .layout-crotchet:after {
-        content: "";
-        display: table;
-        clear: both;
-    	}
     
     .layout-grid-crotchet .layout-crotchet {
         width: 100%;
@@ -114,12 +102,6 @@ blockquote {
         padding: 0;
         }
     
-    .layout-crotchet-staccato:after {
-        content: "";
-        display: table;
-        clear: both;
-    	}
-    
     [class*="block-"][class*="layout-crotchet-staccato"] {
         width: calc(27% - 36px);
         }
@@ -146,12 +128,6 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
-    .layout-minim:after {
-        content: "";
-        display: table;
-        clear: both;
-    	}
     
     [class*="block-"][class*="layout-minim-staccato"] {
         width: calc(49% - 36px);
@@ -204,12 +180,6 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
-    .layout-minim-staccato:after {
-        content: "";
-        display: table;
-        clear: both;
-    	}
     
     [class*="block-"][class*="layout-minim-staccato"] {
         width: calc(42% - 36px);
